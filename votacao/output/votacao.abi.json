@@ -1,0 +1,51 @@
+{
+    "buildInfo": {
+        "rustc": {
+            "version": "1.89.0-nightly",
+            "commitHash": "45f256d9d7cffb66185c0bf1b8a864cba79db90c",
+            "commitDate": "2025-05-27",
+            "channel": "Nightly",
+            "short": "rustc 1.89.0-nightly (45f256d9d 2025-05-27)"
+        },
+        "contractCrate": {
+            "name": "votacao",
+            "version": "0.0.0"
+        },
+        "framework": {
+            "name": "multiversx-sc",
+            "version": "0.58.0"
+        }
+    },
+    "name": "VotacaoContract",
+    "constructor": {
+        "inputs": [],
+        "outputs": []
+    },
+    "endpoints": [
+        {
+            "name": "votar_ethereum",
+            "mutability": "mutable",
+            "inputs": [],
+            "outputs": []
+        },
+        {
+            "name": "votar_bitcoin",
+            "mutability": "mutable",
+            "inputs": [],
+            "outputs": []
+        },
+        {
+            "name": "placar",
+            "mutability": "readonly",
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "tuple<BigUint,BigUint>"
+                }
+            ]
+        }
+    ],
+    "esdtAttributes": [],
+    "hasCallback": false,
+    "types": {}
+}

@@ -1,0 +1,4 @@
+votacao/target/
+votacao/wallets/
+votacao/deploy-output.json
+votacao/*.pem

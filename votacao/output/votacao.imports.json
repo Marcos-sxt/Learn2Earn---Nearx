@@ -1,0 +1,19 @@
+[
+  "bigIntAdd",
+  "bigIntSetInt64",
+  "checkNoPayment",
+  "getNumArguments",
+  "mBufferAppend",
+  "mBufferAppendBytes",
+  "mBufferFinish",
+  "mBufferFromBigIntUnsigned",
+  "mBufferGetByteSlice",
+  "mBufferGetLength",
+  "mBufferSetBytes",
+  "mBufferStorageLoad",
+  "mBufferStorageStore",
+  "mBufferToBigIntUnsigned",
+  "managedCaller",
+  "managedSignalError",
+  "signalError"
+]
